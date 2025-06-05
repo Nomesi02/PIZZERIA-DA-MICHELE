@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria da Michele</title>
+    <link rel="stylesheet" href="damichele.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1 class="navbar-brand">Pizzeria da Michele</h1>
+            <ul class="navbar-nav">
+                <li><a>Chi Siamo</a></li>
+                <li><a>Menù Completo</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about-us" class="hero-section">
+            <div class="hero-content">
+                <h2>Chi Siamo</h2>
+                <p class="about-us-description">Benvenuti alla Pizzeria da Michele! La nostra tradizione artigianale si tramanda da generazioni, offrendo pizze autentiche e deliziose preparate con ingredienti freschi e di alta qualità. Venite a scoprire il vero sapore della pizza napoletana nel cuore di... (inserisci qui la tua città/quartiere).</p>
+            </div>
+        </section>
+
+        <section id="full-menu" class="menu-section">
+            <h2 class="section-title">Il Nostro Menù Completo</h2>
+            <div class="menu-button-container">
+                <button id="showMenuBtn" class="btn menu-button">Mostra Menù</button>
+                <div id="pizza-list" class="hidden">
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="damichele.js"></script>
+
+</body>
+</html>
